@@ -1,0 +1,32 @@
+
+
+------------------------------ UFO -------------------------------
+Latitude:     44.70693128 deg
+Longitude:    -75.51550708 deg
+Altitude ASL: 112.7991 m (370.0759 ft)
+38Heading:      224.1 deg
+Ground Elev:  71.9999 m (236.2201 ft)
+
+# w080n40/w076n44/1712553.stg
+OBJECT_STATIC -75.51550708 44.70693128 71.9999 135.9
+
+http://maps.google.com/maps?ll=44.7069312809,-75.5155070801&z=12&t=h
+$ fgfs --aircraft=ufo --lat=44.706931 --lon=-75.515507 --altitude=370.08 --heading=206.5
+
+
+------------------------ Selected Object -------------------------
+Path:         /home/david/Models/coastguard-icebreaker/coastguard-icebreaker.ac
+Latitude:     44.70646318 deg
+Longitude:    -75.51602089 deg
+Altitude ASL: 71.9934 m (236.1988 ft)
+Heading:      50.1 deg
+Pitch:        0.0 deg
+Roll:        -0.0 deg
+
+------------------------------------------------------------------
+
+# Lines for stg
+OBJECT_SHARED /home/david/Models/coastguard-icebreaker/coastguard-icebreaker.ac -75.51602089 44.70646318 71.9934 309.9 0.0 -0.0
+
+# Lines for upload form
+OBJECT_SHARED /home/david/Models/coastguard-icebreaker/coastguard-icebreaker.ac -75.51602089 44.70646318 71.9934 309.9 -0.0 0.0 -0.0
